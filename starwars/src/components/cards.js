@@ -7,7 +7,7 @@ function Cards(props) {
     return (
         <>
 
-        <Col sm='4' >
+        <Col sm='4'>
         <Card body style={{margin:'4%'}}>
             <CardHeader >Name: {props.char.name}</CardHeader>
             <CardText style={{marginTop:'4%'}}>Species: {props.char.species}</CardText>

@@ -32,6 +32,3 @@ function CardPage() {
 }
 
 export default CardPage;
-
-
-// name={character.name} species={character.species} height={character.height} weight={character.weight} gender={character.gender}
