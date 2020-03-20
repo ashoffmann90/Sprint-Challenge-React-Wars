@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {Row, Container} from 'reactstrap';
 import Cards from './cards';
 import axios from 'axios';
 
@@ -19,10 +20,13 @@ function CardPage() {
 
     return (
         <>
+        <Container>
+        <Row >
         {character.map((info, index) => (
             <Cards key={index} char={info}/>
         ))}
-        
+        </Row>
+        </Container>
         </>
         )
 }
